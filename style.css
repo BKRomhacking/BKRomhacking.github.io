@@ -32,7 +32,7 @@ ul {
 li {
     list-style-type: none;
     padding-left: 5%;
-    padding-top: 8%;
+    padding-top: 5%;
     flex-direction:row;
     color: #7bb0ff;
 }
@@ -172,18 +172,29 @@ input:checked + .slider:before {
 
 /* Mods Container */
 
-#modscontainer {
-    width: 100%;
+.modscontainer {
+    width: 80%;
     display: flex;
-    justify-content: center;
-    margin-top: 5%;
+    margin: 2% auto 2% auto;
 }
 
 .mods {
-    width: 10%;
+    width: 25%;
     flex-direction: row;
-    justify-content: center;
     border-color: black;
+    border-radius: 25px;
     background-color: grey;
-    margin: auto;
+    margin: 0 2% 0 2%;
+    text-align: center;
+}
+
+.mods img {
+    padding: -1%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.mods p {
+    color: #FFFFFF;
+    padding: 4%;
 }
