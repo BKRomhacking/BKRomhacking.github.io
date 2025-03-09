@@ -12,22 +12,41 @@ nav {
     font-family: "Comic Neue", cursive;
     font-weight: 700;
     font-style: normal;
+    display: flex;
+    justify-content: center
+}
+
+image {
+    border-radius: 25%;
 }
 
 ul {
     margin: 0%;
-    padding: 1%;
+    padding: 0.5% 3% 0.5% 0%;
     display: flex;
     justify-content: center;
 }
 
 li {
     list-style-type: none;
-    padding-left: 1%;
+    padding-left: 5%;
+    padding-top: 8%;
     flex-direction:row;
     color: #7bb0ff;
 }
 li:hover {
     color: #FFFFFF;
-    
+}
+
+li:selected {
+    color: red;
+}
+
+#searchbar {
+    width: 80%;
+    padding: 1%;
+    margin: auto;
+    justify-content: center;
+    border-radius: 0 0 15px 15px;
+    background-color: #1b1e23;    
 }
